@@ -22,12 +22,12 @@ cl4.write(dt['petal.width'].sum())
 
 dx=pd.DataFrame(
     {
-        "col1":dt['sepal.length'].sum(),
-        "col2":dt['sepal.width'].sum(),
-        "col3":dt['petal.length'].sum()
+        "cl1":dt['sepal.length'].sum(),
+        "cl2":dt['sepal.width'].sum(),
+        "cl3":dt['petal.length'].sum()
     }
 )
-st.bar_chart(dx,x='col1',y='col2',color='col3')
+st.bar_chart(dx,x='cl1',y='cl2',color='cl3')
 
 st.write('ค่าเฉลี่ย')
 cl1,cl2,cl3,cl4=st.columns(4)
