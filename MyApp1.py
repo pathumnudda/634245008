@@ -9,10 +9,10 @@ st.image('aa.jpg')
 #Index(['sepal.length', 'sepal.width', 'petal.length', 'petal.width','variety'], dtype='object')
 
 dt=pd.read_csv('./data/iris.csv')
-st.subheader("ข้อมูลดอกไม้")
+st.subheader("ข้อมูลดอกไม้ Iris")
 st.write(dt.head(10))
 
-st.subheader("ข้อมูลดอกไม้")
+st.subheader("สถิติข้อมูลดอกไม้ Iris")
 st.write('ผลรวม')
 cl1,cl2,cl3,cl4=st.columns(4)
 cl1.write(dt['sepal.length'].sum())
