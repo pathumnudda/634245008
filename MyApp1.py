@@ -13,6 +13,6 @@ st.write(dt.head(10))
 #       'variety'],
 
 st.subheader("สถิติข้อมูลดอกไม้ Iris")
-st.write('ผลรวม')
+
 
  
