@@ -22,9 +22,9 @@ cl4.write(dt['petal.width'].sum())
 
 dx=pd.DataFrame(
     {
-        "cl1":dt['sepal.length'].sum()
-        "cl2":dt['sepal.width'].sum()
-        "cl3":dt['petal.length'].sum()
+        "col1":dt['sepal.length'].sum(),
+        "col2":dt['sepal.width'].sum(),
+        "col3":dt['petal.length'].sum()
     }
 )
 st.bar_chart(dx,x='col1',y='col2',color='col3')
