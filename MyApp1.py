@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-st.title("Website Developing using Python")
-st.header("Website Developing using Python")
-st.subheader("  ✨Suteekarn  ✨")
+st.title("🌷🌷Website Developing using Python🌷🌷")
+st.header("🎈🎈Website Developing using Python🎈🎈")
+st.subheader("🐬Pathumnudda🐬")
 st.image('aa.jpg')
 
 #Index(['sepal.length', 'sepal.width', 'petal.length', 'petal.width','variety'], dtype='object')
